@@ -5,7 +5,6 @@ namespace Fuelviews\LayoutWrapper;
 use Fuelviews\LayoutWrapper\Commands\LayoutWrapperInstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Illuminate\Support\Facades\File;
 
 class LayoutWrapperServiceProvider extends PackageServiceProvider
 {
