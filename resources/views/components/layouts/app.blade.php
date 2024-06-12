@@ -10,9 +10,10 @@
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
-        @if (class_exists(\Livewire\Livewire::class && config('layout-wrapper.livewire_enabled')))
+        @if (class_exists(\Livewire\Livewire::class) && config('layout-wrapper.livewire_enabled'))
             @livewireStyles
         @endif
+
     </head>
     <body>
         @if (View::exists('navigation::components.navigation') && config('layout-wrapper.navigation_enabled'))
@@ -29,7 +30,7 @@
             @include('googletagmanager::body')
         @endif
 
-        @if (class_exists(\Livewire\Livewire::class && config('layout-wrapper.livewire_enabled')))
+        @if (class_exists(\Livewire\Livewire::class) && config('layout-wrapper.livewire_enabled'))
             @livewireScripts
         @endif
     </body>
