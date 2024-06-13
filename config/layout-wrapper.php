@@ -13,14 +13,14 @@ return [
     */
 
     // Enable or disable Google Tag Manager
-    'gtm_enabled' => env('GTM_ENABLED', false),
+    'gtm_enabled' => true,
 
     // Enable or disable Livewire
-    'livewire_enabled' => env('LIVEWIRE_ENABLED', false),
+    'livewire_enabled' => true,
 
     // Enable or disable Navigation
-    'navigation_enabled' => env('NAVIGATION_ENABLED', true),
+    'navigation_enabled' => true,
 
     // Enable or disable Forms Modal
-    'forms_modal_enabled' => env('FORMS_MODAL_ENABLED', true),
+    'forms_modal_enabled' => true,
 ];
