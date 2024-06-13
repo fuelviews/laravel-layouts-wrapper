@@ -9,7 +9,7 @@ class LayoutWrapperInstallCommand extends Command
 {
     public $signature = 'layout-wrapper:install';
 
-    public $description = 'Install the layout wrapper package';
+    public $description = 'Install layout wrapper welcome.blade.php view';
 
     public function handle(): int
     {
