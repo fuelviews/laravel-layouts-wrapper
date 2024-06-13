@@ -2,6 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/fuelviews/laravel-layout-wrapper.svg?style=flat-square)](https://packagist.org/packages/fuelviews/laravel-layout-wrapper)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/fuelviews/laravel-layout-wrapper/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/fuelviews/laravel-layout-wrapper/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/fuelviews/laravel-layout-wrapper/fix-php-code-style-issues.yml?label=code%20style&style=flat-square)](https://github.com/fuelviews/laravel-layout-wrapper/actions?query=workflow%3A%22Fix+PHP+code+style+issues%22)
 [![Total Downloads](https://img.shields.io/packagist/dt/fuelviews/laravel-layout-wrapper.svg?style=flat-square)](https://packagist.org/packages/fuelviews/laravel-layout-wrapper)
 
 Laravel layout wrapper package
