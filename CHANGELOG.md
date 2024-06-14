@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-layout-wrapper` will be documented in this file.
 
+## v0.0.4 - 2024-06-14
+
+### What's Changed
+
+* Polishing package by @thejmitchener in https://github.com/fuelviews/laravel-layout-wrapper/pull/7
+
+**Full Changelog**: https://github.com/fuelviews/laravel-layout-wrapper/compare/v0.0.3...v0.0.4
+
 ## v0.0.3 - 2024-06-13
 
 ### What's Changed
