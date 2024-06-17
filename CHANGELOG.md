@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-layout-wrapper` will be documented in this file.
 
+## v0.0.5 - 2024-06-17
+
+### What's Changed
+
+* Add GitHub Code Style Action badge to the README.md file. by @thejmitchener in https://github.com/fuelviews/laravel-layout-wrapper/pull/8
+
+**Full Changelog**: https://github.com/fuelviews/laravel-layout-wrapper/compare/v0.0.4...v0.0.5
+
 ## v0.0.4 - 2024-06-14
 
 ### What's Changed
