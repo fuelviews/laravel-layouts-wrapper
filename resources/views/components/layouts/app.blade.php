@@ -14,6 +14,9 @@
             @livewireStyles
         @endif
 
+        @if(class_exists(\Spatie\GoogleFonts\GoogleFonts::class))
+            @googlefonts
+        @endif
     </head>
     <body>
         @if (View::exists('navigation::components.navigation') && config('layout-wrapper.navigation_enabled'))
