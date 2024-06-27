@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-layout-wrapper` will be documented in this file.
 
+## v0.0.6 - 2024-06-27
+
+### What's Changed
+
+* Added support for loading Google Fonts using the Spatie\GoogleFonts package in the app layout file. This change was made to improve the styling and design of the application by easily including custom fonts. by @thejmitchener in https://github.com/fuelviews/laravel-layout-wrapper/pull/9
+
+**Full Changelog**: https://github.com/fuelviews/laravel-layout-wrapper/compare/v0.0.5...v0.0.6
+
 ## v0.0.5 - 2024-06-17
 
 ### What's Changed
