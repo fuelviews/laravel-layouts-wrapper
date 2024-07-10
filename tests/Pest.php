@@ -1,5 +1,5 @@
 <?php
 
-use Fuelviews\LayoutWrapper\Tests\TestCase;
+use Fuelviews\LayoutsWrapper\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

@@ -1,14 +1,14 @@
 {
-    "name": "fuelviews/laravel-layout-wrapper",
-    "description": "Laravel layout wrapper package",
+    "name": "fuelviews/laravel-layouts-wrapper",
+    "description": "Laravel layouts wrapper package",
     "keywords": [
         "fuelviews",
         "laravel",
-        "laravel-layout-wrapper",
+        "laravel-layouts-wrapper",
         "layout",
-        "layout-wrapper"
+        "layouts-wrapper"
     ],
-    "homepage": "https://github.com/fuelviews/laravel-layout-wrapper",
+    "homepage": "https://github.com/fuelviews/laravel-layouts-wrapper",
     "license": "MIT",
     "authors": [
         {
@@ -32,18 +32,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Fuelviews\\LayoutWrapper\\": "src/"
+            "Fuelviews\\LayoutsWrapper\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Fuelviews\\LayoutWrapper\\Tests\\": "tests/",
+            "Fuelviews\\LayoutsWrapper\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
     "scripts": {
         "post-autoload-dump": "@composer run prepare",
-        "clear": "@php vendor/bin/testbench package:purge-laravel-layout-wrapper --ansi",
+        "clear": "@php vendor/bin/testbench package:purge-laravel-layouts-wrapper --ansi",
         "prepare": "@php vendor/bin/testbench package:discover --ansi",
         "build": [
             "@composer run prepare",
@@ -69,10 +69,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Fuelviews\\LayoutWrapper\\LayoutWrapperServiceProvider"
+                "Fuelviews\\LayoutsWrapper\\LayoutsWrapperServiceProvider"
             ],
             "aliases": {
-                "LayoutWrapper": "Fuelviews\\LayoutWrapper\\Facades\\LayoutWrapper"
+                "LayoutsWrapper": "Fuelviews\\LayoutsWrapper\\Facades\\LayoutsWrapper"
             }
         }
     },
