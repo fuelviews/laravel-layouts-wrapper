@@ -1,8 +1,8 @@
 <?php
 
-namespace Fuelviews\LayoutWrapper\Tests;
+namespace Fuelviews\LayoutsWrapper\Tests;
 
-use Fuelviews\LayoutWrapper\LayoutWrapperServiceProvider;
+use Fuelviews\LayoutsWrapper\LayoutsWrapperServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 
@@ -13,14 +13,14 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Fuelviews\\LayoutWrapper\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Fuelviews\\LayoutsWrapper\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 
     protected function getPackageProviders($app)
     {
         return [
-            LayoutWrapperServiceProvider::class,
+            LayoutsWrapperServiceProvider::class,
         ];
     }
 
@@ -29,7 +29,7 @@ class TestCase extends Orchestra
         config()->set('database.default', 'testing');
 
         /*
-        $migration = include __DIR__.'/../database/migrations/create_laravel-layout-wrapper_table.php.stub';
+        $migration = include __DIR__.'/../database/migrations/create_laravel-layouts-wrapper_table.php.stub';
         $migration->up();
         */
     }
