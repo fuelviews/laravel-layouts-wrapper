@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-layouts-wrapper` will be documented in this file.
 
+## v0.0.7 - 2024-07-10
+
+### What's Changed
+
+* Refactor and rename package by @thejmitchener in https://github.com/fuelviews/laravel-layouts-wrapper/pull/10
+
+**Full Changelog**: https://github.com/fuelviews/laravel-layouts-wrapper/compare/v0.0.6...v0.0.7
+
 ## v0.0.6 - 2024-06-27
 
 ### What's Changed
