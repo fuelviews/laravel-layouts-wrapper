@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-layouts-wrapper` will be documented in this file.
 
+## v0.0.8 - 2024-07-16
+
+### What's Changed
+
+* Refactor app.blade.php layout file to improve SEO and add support for… by @thejmitchener in https://github.com/fuelviews/laravel-layouts-wrapper/pull/11
+
+**Full Changelog**: https://github.com/fuelviews/laravel-layouts-wrapper/compare/v0.0.7...v0.0.8
+
 ## v0.0.7 - 2024-07-10
 
 ### What's Changed
