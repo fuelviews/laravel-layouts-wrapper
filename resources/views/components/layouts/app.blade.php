@@ -1,8 +1,15 @@
+
+
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
 <head>
     @if (class_exists(RalphJSmit\Laravel\SEO\SEOManager::class))
-        {!! seo() !!}
+        @isset($page)
+            {!! seo()->for($page) !!}
+        @endisset
+        @isset($post)
+            {!! seo()->for($post) !!}
+        @endisset
     @endif
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
