@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-layouts-wrapper` will be documented in this file.
 
+## v0.0.9 - 2024-07-18
+
+### What's Changed
+
+* Add laravel seo by @thejmitchener in https://github.com/fuelviews/laravel-layouts-wrapper/pull/12
+
+**Full Changelog**: https://github.com/fuelviews/laravel-layouts-wrapper/compare/v0.0.8...v0.0.9
+
 ## v0.0.8 - 2024-07-16
 
 ### What's Changed
