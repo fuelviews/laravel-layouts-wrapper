@@ -21,8 +21,7 @@ class LayoutsWrapperServiceProvider extends PackageServiceProvider
             ->hasInstallCommand(function(InstallCommand $command) {
                 $command
                     ->publishConfigFile()
-                    ->publishMigrations()
-                    ->askToRunMigrations();
+                    ->publishMigrations();
             });
 
         $this->publishes([
