@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-layouts-wrapper` will be documented in this file.
 
+## v0.0.11 - 2024-07-27
+
+### What's Changed
+
+* Remove migrations prompt by @thejmitchener in https://github.com/fuelviews/laravel-layouts-wrapper/pull/14
+
+**Full Changelog**: https://github.com/fuelviews/laravel-layouts-wrapper/compare/v0.0.10...v0.0.11
+
 ## v0.0.10 - 2024-07-27
 
 ### What's Changed
