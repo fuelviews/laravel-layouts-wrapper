@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-layouts-wrapper` will be documented in this file.
 
+## v0.0.13 - 2024-07-29
+
+### What's Changed
+
+* Refactor app.blade.php layout to include SEO tags for pages and posts Update LayoutsWrapperServiceProvider.php and Page.php to use the correct namespace for the Page model. by @thejmitchener in https://github.com/fuelviews/laravel-layouts-wrapper/pull/16
+
+**Full Changelog**: https://github.com/fuelviews/laravel-layouts-wrapper/compare/v0.0.12...v0.0.13
+
 ## v0.0.12 - 2024-07-29
 
 ### What's Changed
