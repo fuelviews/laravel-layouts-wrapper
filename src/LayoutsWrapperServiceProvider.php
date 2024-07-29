@@ -18,7 +18,7 @@ class LayoutsWrapperServiceProvider extends PackageServiceProvider
             ->hasConfigFile('layouts-wrapper')
             ->hasViews()
             ->hasMigration('create_pages_table')
-            ->hasInstallCommand(function(InstallCommand $command) {
+            ->hasInstallCommand(function (InstallCommand $command) {
                 $command
                     ->publishConfigFile()
                     ->publishMigrations();
