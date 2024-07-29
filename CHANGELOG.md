@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-layouts-wrapper` will be documented in this file.
 
+## v0.0.12 - 2024-07-29
+
+### What's Changed
+
+* Update pages migration by @thejmitchener in https://github.com/fuelviews/laravel-layouts-wrapper/pull/15
+
+**Full Changelog**: https://github.com/fuelviews/laravel-layouts-wrapper/compare/v0.0.11...v0.0.12
+
 ## v0.0.11 - 2024-07-27
 
 ### What's Changed
