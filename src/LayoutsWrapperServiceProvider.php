@@ -2,7 +2,7 @@
 
 namespace Fuelviews\LayoutsWrapper;
 
-use App\Models\Page;
+use Fuelviews\LayoutsWrapper\Models\Page;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\View;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;

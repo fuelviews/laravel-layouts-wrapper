@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
 <head>
@@ -10,6 +8,9 @@
         @isset($post)
             {!! seo()->for($post) !!}
         @endisset
+        @if(empty($page) && empty($post))
+            {!! seo() !!}
+        @endif
     @endif
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -46,4 +47,3 @@
     @endif
 </body>
 </html>
-

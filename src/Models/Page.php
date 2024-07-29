@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace Fuelviews\LayoutsWrapper\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use RalphJSmit\Laravel\SEO\Support\HasSEO;
