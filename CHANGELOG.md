@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-layouts-wrapper` will be documented in this file.
 
+## v0.0.14 - 2024-07-31
+
+### What's Changed
+
+* Add meta tags for charset and viewport in app.blade.php and remove the publishing of Page.php model in LayoutsWrapperServiceProvider.php. by @thejmitchener in https://github.com/fuelviews/laravel-layouts-wrapper/pull/17
+
+**Full Changelog**: https://github.com/fuelviews/laravel-layouts-wrapper/compare/v0.0.13...v0.0.14
+
 ## v0.0.13 - 2024-07-29
 
 ### What's Changed
