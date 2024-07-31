@@ -29,10 +29,6 @@ class LayoutsWrapperServiceProvider extends PackageServiceProvider
         ], 'layouts-wrapper-seeders');
 
         $this->publishes([
-            __DIR__.'/Models/Page.php' => app_path('Models/Page.php'),
-        ], 'layouts-wrapper-models');
-
-        $this->publishes([
             __DIR__.'/../resources/stubs/welcome.blade.php.stub' => resource_path('views/welcome.blade.php'),
         ], 'layouts-wrapper-welcome');
     }
