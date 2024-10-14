@@ -12,7 +12,7 @@ Laravel layouts wrapper package
 You can install the package via composer:
 
 ```bash
-composer require fuelviews/laravel-layouts-wrapper
+composer require fuelviews/laravel-layouts-wrapper:^0.0
 ```
 
 You can publish the config file with:
@@ -25,19 +25,8 @@ This is the contents of the published config file:
 
 ```php
 return [
-    /*
-    |--------------------------------------------------------------------------
-    | Layout Wrapper Configuration
-    |--------------------------------------------------------------------------
-    |
-    | This configuration file contains settings for the layout wrapper of your
-    | application. You can enable or disable various features like Google Tag
-    | Manager, Livewire, Navigation, and Forms Modal.
-    |
-    */
-
     // Enable or disable Google Tag Manager
-    'gtm_enabled' => true,
+    'gtm_enabled' => false,
 
     // Enable or disable Livewire
     'livewire_enabled' => true,
@@ -45,6 +34,9 @@ return [
     // Enable or disable Navigation
     'navigation_enabled' => true,
 
+    // Enable or disable Forms Modal
+    'forms_modal_enabled' => true,
+    
     // Enable or disable Forms Modal
     'forms_modal_enabled' => true,
 ];

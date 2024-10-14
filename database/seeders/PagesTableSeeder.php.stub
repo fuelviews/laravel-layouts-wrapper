@@ -18,7 +18,7 @@ class PagesTableSeeder extends Seeder
                 'slug' => 'home',
                 'title' => 'home page',
                 'description' => 'This is the home page description.',
-                'image' => 'images/ipr-logo-main.png',
+                'image' => 'images/logo.png',
             ],
 
         ];
