@@ -2,6 +2,15 @@
 
 All notable changes to `laravel-layouts-wrapper` will be documented in this file.
 
+## v0.0.16 - 2024-10-14
+
+### What's Changed
+
+* Bump anothrNick/github-tag-action from 1.69.0 to 1.71.0 by @dependabot in https://github.com/fuelviews/laravel-layouts-wrapper/pull/22
+* Add footer update seeder by @thejmitchener in https://github.com/fuelviews/laravel-layouts-wrapper/pull/23
+
+**Full Changelog**: https://github.com/fuelviews/laravel-layouts-wrapper/compare/v0.0.15...v0.0.16
+
 ## v0.0.15 - 2024-10-01
 
 ### What's Changed
