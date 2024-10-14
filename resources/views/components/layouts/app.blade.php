@@ -37,6 +37,10 @@
 
     {{ $slot }}
 
+    @if (View::exists('navigation::components.footer.footer') && config('layouts-wrapper.footer_enabled'))
+        <x-navigation::footer.footer />
+    @endif
+
     @if (View::exists('forms::livewire.forms-modal') && config('layouts-wrapper.forms_modal_enabled'))
         @livewire('forms-modal')
     @endif
