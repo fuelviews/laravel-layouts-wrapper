@@ -22,30 +22,30 @@
         @livewireStyles
     @endif
 
-    @if(class_exists(\Spatie\GoogleFonts\GoogleFonts::class))
+    @if (class_exists(\Spatie\GoogleFonts\GoogleFonts::class))
         @googlefonts
     @endif
 
-    @if (View::exists('googletagmanager::head') && config('layouts-wrapper.gtm_enabled'))
+    @if (class_exists(\Spatie\GoogleTagManager\GoogleTagManager::class) && config('layouts-wrapper.gtm_enabled'))
         @include('googletagmanager::head')
     @endif
 </head>
 <body>
-    @if (View::exists('navigation::components.navigation') && config('layouts-wrapper.navigation_enabled'))
+    @if (class_exists(\Fuelviews\Navigation\Navigation::class) && config('layouts-wrapper.navigation_enabled'))
         <x-navigation::navigation />
     @endif
 
     {{ $slot }}
 
-    @if (View::exists('navigation::components.footer.footer') && config('layouts-wrapper.footer_enabled'))
+    @if (class_exists(\Fuelviews\Navigation\View\Components\Footer\Footer::class) && config('layouts-wrapper.footer_enabled'))
         <x-navigation::footer.footer />
     @endif
 
-    @if (View::exists('forms::livewire.forms-modal') && config('layouts-wrapper.forms_modal_enabled'))
+    @if (class_exists(\Fuelviews\Forms\Forms::class) && config('layouts-wrapper.forms_modal_enabled'))
         @livewire('forms-modal')
     @endif
 
-    @if (View::exists('googletagmanager::body') && config('layouts-wrapper.gtm_enabled'))
+    @if (class_exists(\Spatie\GoogleTagManager\GoogleTagManager::class) && config('layouts-wrapper.gtm_enabled'))
         @include('googletagmanager::body')
     @endif
 
