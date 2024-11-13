@@ -31,7 +31,7 @@
     @endif
 </head>
 <body>
-    @if (class_exists(\Fuelviews\LayoutsWrapper\LayoutsWrapper::class) && config('layouts-wrapper.navigation_enabled'))
+    @if (class_exists(\Fuelviews\Navigation\Navigation::class) && config('layouts-wrapper.navigation_enabled'))
         <x-navigation::navigation />
     @endif
 
