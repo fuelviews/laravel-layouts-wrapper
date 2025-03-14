@@ -2,6 +2,15 @@
 
 All notable changes to `laravel-layouts-wrapper` will be documented in this file.
 
+## v0.0.18 - 2025-03-14
+
+### What's Changed
+
+* Bump stefanzweifel/git-auto-commit-action from 4 to 5 by @dependabot in https://github.com/fuelviews/laravel-layouts-wrapper/pull/28
+* Bump dependabot/fetch-metadata from 2.2.0 to 2.3.0 by @dependabot in https://github.com/fuelviews/laravel-layouts-wrapper/pull/29
+
+**Full Changelog**: https://github.com/fuelviews/laravel-layouts-wrapper/commits/v0.0.18
+
 ## v0.0.17 - 2024-11-13
 
 ### What's Changed
