@@ -2,4 +2,6 @@
 
 namespace Fuelviews\LayoutsWrapper;
 
-class LayoutsWrapper {}
+class LayoutsWrapper
+{
+}
