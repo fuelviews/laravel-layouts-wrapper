@@ -2,6 +2,15 @@
 
 All notable changes to `laravel-layouts-wrapper` will be documented in this file.
 
+## v0.0.19 - 2025-07-08
+
+### What's Changed
+
+* Bump aglipanci/laravel-pint-action from 2.4 to 2.5 by @dependabot in https://github.com/fuelviews/laravel-layouts-wrapper/pull/30
+* Bump stefanzweifel/git-auto-commit-action from 5 to 6 by @dependabot in https://github.com/fuelviews/laravel-layouts-wrapper/pull/33
+
+**Full Changelog**: https://github.com/fuelviews/laravel-layouts-wrapper/compare/v0.0.18...v0.0.19
+
 ## v0.0.18 - 2025-03-14
 
 ### What's Changed
